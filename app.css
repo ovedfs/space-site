@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Home */
+.home-hero {
+  background-image: url('./images/bg01.jpg');
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  max-width: 600px;
+  border: 1px solid white;
+}
+
+.hero-img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* About us */
+.header-aboutus {
+  background-image: url('./images/bg02.jpeg');
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
